@@ -1,0 +1,54 @@
+.calci{
+    width: 40vw;
+    height: 90vh;
+    margin: auto;
+    border-radius: 3%;
+    border: 2px solid rgb(183, 183, 184);
+    background-color: rgb(52, 60, 67);
+}
+
+
+.output{
+    
+    margin-left: 2%;
+
+    width: 95%;
+    height: 20%;
+    font-size: 70px;
+    border: 1px solid rgb(181, 181, 184);
+
+    margin-top: 3%;
+    background-color: aliceblue;
+}
+#cancle{
+    color: red;
+}
+#equal{
+    color: blue;
+}
+.input{
+    width: 97%;
+    height: 71%;
+    border: 1px solid rgb(135, 135, 143);
+    border-radius: 1%;
+    margin: auto;
+    margin-top: 3%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: auto;
+}
+.clcbutton{
+    width: 15%;
+    height: 15%;
+    margin: 14px;
+    border-radius: 4%;
+  font-size: 44px;
+  cursor: pointer;
+}
+.kushdev{
+    text-align: center;
+   color: #d2d0d0;
+    margin: 0;
+   font-family: 'Times New Roman', Times, serif;
+}
