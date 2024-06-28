@@ -1,5 +1,5 @@
 .calci{
-    width: 40vw;
+    width: 40%;
     height: 90vh;
     margin: auto;
     border-radius: 3%;
@@ -39,7 +39,7 @@
     gap: auto;
 }
 .clcbutton{
-    width: 15%;
+   
     height: 15%;
     margin: 14px;
     border-radius: 4%;
@@ -51,4 +51,14 @@
    color: #d2d0d0;
     margin: 0;
    font-family: 'Times New Roman', Times, serif;
+}
+
+
+@media screen and (max-width: 768px) {
+   
+    .calci{
+        
+       width: 100vw;
+    }
+    
 }
